@@ -34,12 +34,12 @@ example for request body : <br/>
 ## Put (Update Barang by Id)
 Method PUT <br />
 http://localhost/ci-rest-api/v1/product/ <br />
-<img src="docs/put_method.png" />
+<img src="src/put_method.png" />
 
 ## Delete (Delete barang)
 Method DELETE <br />
 http://localhost/ci-rest-api/v1/product/ <br />
-<img src="docs/delete_method.png" />
+<img src="src/delete_method.png" />
 
 
 
