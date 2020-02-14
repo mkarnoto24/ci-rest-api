@@ -100,6 +100,7 @@ Class Product extends MY_REST_Controller{
     }
 
     public function index_put(){
+		$id=$this->put('id');
         if(!empty($id)){
 
 			// Set validations
