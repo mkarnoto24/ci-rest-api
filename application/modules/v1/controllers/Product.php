@@ -148,7 +148,7 @@ Class Product extends MY_REST_Controller{
 				);
 			}
 
-			return $this->set_response($data, $this->lang->line('text_update_success'), REST_Controller::HTTP_OK);
+			return $this->set_response($data, "success", REST_Controller::HTTP_OK);
 		}else{
 			$this->response([
                 'status'     => FALSE,
